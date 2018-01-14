@@ -90,7 +90,9 @@
     <Content Include="Data\Textures\Jack_face.jpg" />
     <Content Include="Data\Textures\Logo.png" />
     <Content Include="Data\Textures\Logo.xml" />
-    <Content Include="Data\Textures\LogoLarge.png" />
+    <Content Include="Data\Textures\LogoLarge.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="Data\Textures\LogoLarge.xml" />
     <Content Include="Data\Textures\Mushroom.dds" />
     <Content Include="Data\Textures\NinjaSnowWar\CloudPlane.dds" />
@@ -180,7 +182,9 @@
     <Content Include="Data\Textures\UI.xml" />
     <Content Include="Data\Textures\UrhoDecal.dds" />
     <Content Include="Data\Textures\UrhoDecalAlpha.dds" />
-    <Content Include="Data\Textures\UrhoIcon.png" />
+    <Content Include="Data\Textures\UrhoIcon.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Data\Textures\WaterNoise.dds" />
     <Content Include="Data\UI\DefaultStyle.xml" />
     <Content Include="Data\UI\EditorColorWheel.xml" />
