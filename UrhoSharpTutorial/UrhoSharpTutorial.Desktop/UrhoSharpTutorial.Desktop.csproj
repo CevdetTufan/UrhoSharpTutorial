@@ -49,21 +49,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <Content Include="Data\Fonts\Font.ttf">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Data\Models\Box.mdl">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Data\Models\Sphere.mdl">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Data\Materials\BoxMaterial.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Data\Textures\xamarin.png">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
+    <None Include="Data\Textures\UrhoIcon.icns" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
@@ -71,7 +57,162 @@
       <Name>UrhoSharpTutorial</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Data\Textures\BrightDay1_NegX.dds" />
+    <Content Include="Data\Textures\BrightDay1_NegY.dds" />
+    <Content Include="Data\Textures\BrightDay1_NegZ.dds" />
+    <Content Include="Data\Textures\BrightDay1_PosX.dds" />
+    <Content Include="Data\Textures\BrightDay1_PosY.dds" />
+    <Content Include="Data\Textures\BrightDay1_PosZ.dds" />
+    <Content Include="Data\Textures\Editor\BW.png" />
+    <Content Include="Data\Textures\Editor\EditorIcons.png" />
+    <Content Include="Data\Textures\Editor\EditorIcons.xml" />
+    <Content Include="Data\Textures\Editor\HSV20.png" />
+    <Content Include="Data\Textures\Editor\IconCamera.png" />
+    <Content Include="Data\Textures\Editor\IconCollisionTrigger.png" />
+    <Content Include="Data\Textures\Editor\IconCustomGeometry.png" />
+    <Content Include="Data\Textures\Editor\IconLight.png" />
+    <Content Include="Data\Textures\Editor\IconParticleEmitter.png" />
+    <Content Include="Data\Textures\Editor\IconPointLight.png" />
+    <Content Include="Data\Textures\Editor\IconSoundListener.png" />
+    <Content Include="Data\Textures\Editor\IconSoundSource.png" />
+    <Content Include="Data\Textures\Editor\IconSplinePathPoint.png" />
+    <Content Include="Data\Textures\Editor\IconSpotLight.png" />
+    <Content Include="Data\Textures\Editor\IconZone.png" />
+    <Content Include="Data\Textures\Editor\NoPreviewAvailable.png" />
+    <Content Include="Data\Textures\Eject_Seat.png" />
+    <Content Include="Data\Textures\Enemy1.png" />
+    <Content Include="Data\Textures\Flare.dds" />
+    <Content Include="Data\Textures\Glass_Cockpit.png" />
+    <Content Include="Data\Textures\Grass.dds" />
+    <Content Include="Data\Textures\HeightMap.png" />
+    <Content Include="Data\Textures\Jack_body_color.jpg" />
+    <Content Include="Data\Textures\Jack_face.jpg" />
+    <Content Include="Data\Textures\Logo.png" />
+    <Content Include="Data\Textures\Logo.xml" />
+    <Content Include="Data\Textures\LogoLarge.png" />
+    <Content Include="Data\Textures\LogoLarge.xml" />
+    <Content Include="Data\Textures\Mushroom.dds" />
+    <Content Include="Data\Textures\NinjaSnowWar\CloudPlane.dds" />
+    <Content Include="Data\Textures\NinjaSnowWar\HealthBarBorder.png" />
+    <Content Include="Data\Textures\NinjaSnowWar\HealthBarInside.png" />
+    <Content Include="Data\Textures\NinjaSnowWar\Ninja.dds" />
+    <Content Include="Data\Textures\NinjaSnowWar\Sight.png" />
+    <Content Include="Data\Textures\NinjaSnowWar\Sight.xml" />
+    <Content Include="Data\Textures\NinjaSnowWar\Snow.dds" />
+    <Content Include="Data\Textures\NinjaSnowWar\SnowCrate.dds" />
+    <Content Include="Data\Textures\OldUI.png" />
+    <Content Include="Data\Textures\OldUI.xml" />
+    <Content Include="Data\Textures\output_pmrem_negx.dds" />
+    <Content Include="Data\Textures\output_pmrem_negy.dds" />
+    <Content Include="Data\Textures\output_pmrem_negz.dds" />
+    <Content Include="Data\Textures\output_pmrem_posx.dds" />
+    <Content Include="Data\Textures\output_pmrem_posy.dds" />
+    <Content Include="Data\Textures\output_pmrem_posz.dds" />
+    <Content Include="Data\Textures\output_skybox_negx.dds" />
+    <Content Include="Data\Textures\output_skybox_negy.dds" />
+    <Content Include="Data\Textures\output_skybox_negz.dds" />
+    <Content Include="Data\Textures\output_skybox_posx.dds" />
+    <Content Include="Data\Textures\output_skybox_posy.dds" />
+    <Content Include="Data\Textures\output_skybox_posz.dds" />
+    <Content Include="Data\Textures\PBR\Check\Albedo.jpg" />
+    <Content Include="Data\Textures\PBR\Check\Albedo.xml" />
+    <Content Include="Data\Textures\PBR\Check\Normal.jpg" />
+    <Content Include="Data\Textures\PBR\Check\Properties.jpg" />
+    <Content Include="Data\Textures\PBR\Concrete\Albedo.jpg" />
+    <Content Include="Data\Textures\PBR\Concrete\Albedo.xml" />
+    <Content Include="Data\Textures\PBR\Concrete\Normal.jpg" />
+    <Content Include="Data\Textures\PBR\Concrete\PBR.jpg" />
+    <Content Include="Data\Textures\PBR\DiamonPlate\Albedo.jpg" />
+    <Content Include="Data\Textures\PBR\DiamonPlate\Albedo.xml" />
+    <Content Include="Data\Textures\PBR\DiamonPlate\Normal.jpg" />
+    <Content Include="Data\Textures\PBR\DiamonPlate\Properties.jpg" />
+    <Content Include="Data\Textures\PBR\Emissive Pannel\Albedo.jpg" />
+    <Content Include="Data\Textures\PBR\Emissive Pannel\Albedo.xml" />
+    <Content Include="Data\Textures\PBR\Emissive Pannel\Emissive.jpg" />
+    <Content Include="Data\Textures\PBR\Emissive Pannel\Normal.jpg" />
+    <Content Include="Data\Textures\PBR\Emissive Pannel\PBR.jpg" />
+    <Content Include="Data\Textures\PBR\HoverBike\Glass\Albedo.jpg" />
+    <Content Include="Data\Textures\PBR\HoverBike\Glass\Albedo.xml" />
+    <Content Include="Data\Textures\PBR\HoverBike\Glass\Normal.jpg" />
+    <Content Include="Data\Textures\PBR\HoverBike\Glass\Properties.jpg" />
+    <Content Include="Data\Textures\PBR\HoverBike\Hull\Albedo.jpg" />
+    <Content Include="Data\Textures\PBR\HoverBike\Hull\Albedo.xml" />
+    <Content Include="Data\Textures\PBR\HoverBike\Hull\Normal.jpg" />
+    <Content Include="Data\Textures\PBR\HoverBike\Hull\Properties.jpg" />
+    <Content Include="Data\Textures\PBR\Lead\Albedo.jpg" />
+    <Content Include="Data\Textures\PBR\Lead\Albedo.xml" />
+    <Content Include="Data\Textures\PBR\Lead\Normal.jpg" />
+    <Content Include="Data\Textures\PBR\Lead\Properties.jpg" />
+    <Content Include="Data\Textures\PBR\Leather\Albedo.jpg" />
+    <Content Include="Data\Textures\PBR\Leather\Albedo.xml" />
+    <Content Include="Data\Textures\PBR\Leather\Normal.jpg" />
+    <Content Include="Data\Textures\PBR\Leather\Properties.jpg" />
+    <Content Include="Data\Textures\PBR\Mud\Albedo.jpg" />
+    <Content Include="Data\Textures\PBR\Mud\Albedo.xml" />
+    <Content Include="Data\Textures\PBR\Mud\Normal.jpg" />
+    <Content Include="Data\Textures\PBR\Mud\Properties.jpg" />
+    <Content Include="Data\Textures\PBR\Pannel\Albedo.jpg" />
+    <Content Include="Data\Textures\PBR\Pannel\Albedo.xml" />
+    <Content Include="Data\Textures\PBR\Pannel\Normal.jpg" />
+    <Content Include="Data\Textures\PBR\Pannel\PBR.jpg" />
+    <Content Include="Data\Textures\PBR\PBRTextureLicence.txt" />
+    <Content Include="Data\Textures\PBR\Sand\Albedo.jpg" />
+    <Content Include="Data\Textures\PBR\Sand\Albedo.xml" />
+    <Content Include="Data\Textures\PBR\Sand\Normal.jpg" />
+    <Content Include="Data\Textures\PBR\Sand\Properties.jpg" />
+    <Content Include="Data\Textures\Player1.png" />
+    <Content Include="Data\Textures\RibbonTrail.png" />
+    <Content Include="Data\Textures\Skybox.xml" />
+    <Content Include="Data\Textures\Skybox2.xml" />
+    <Content Include="Data\Textures\SlashTrail.png" />
+    <Content Include="Data\Textures\Smoke.dds" />
+    <Content Include="Data\Textures\StoneDiffuse.dds" />
+    <Content Include="Data\Textures\StoneNormal.dds" />
+    <Content Include="Data\Textures\TerrainDetail1.dds" />
+    <Content Include="Data\Textures\TerrainDetail2.dds" />
+    <Content Include="Data\Textures\TerrainDetail3.dds" />
+    <Content Include="Data\Textures\TerrainWeights.dds" />
+    <Content Include="Data\Textures\TouchInput.png" />
+    <Content Include="Data\Textures\T_ColorGrid.png" />
+    <Content Include="Data\Textures\T_ColorGrid.xml" />
+    <Content Include="Data\Textures\UI.png" />
+    <Content Include="Data\Textures\UI.xml" />
+    <Content Include="Data\Textures\UrhoDecal.dds" />
+    <Content Include="Data\Textures\UrhoDecalAlpha.dds" />
+    <Content Include="Data\Textures\UrhoIcon.png" />
+    <Content Include="Data\Textures\WaterNoise.dds" />
+    <Content Include="Data\UI\DefaultStyle.xml" />
+    <Content Include="Data\UI\EditorColorWheel.xml" />
+    <Content Include="Data\UI\EditorContextMenu.xml" />
+    <Content Include="Data\UI\EditorHierarchyWindow.xml" />
+    <Content Include="Data\UI\EditorIcons.xml" />
+    <Content Include="Data\UI\EditorInspectorWindow.xml" />
+    <Content Include="Data\UI\EditorInspector_Attribute.xml" />
+    <Content Include="Data\UI\EditorInspector_Style.xml" />
+    <Content Include="Data\UI\EditorInspector_Tags.xml" />
+    <Content Include="Data\UI\EditorInspector_Variable.xml" />
+    <Content Include="Data\UI\EditorLayersWindow.xml" />
+    <Content Include="Data\UI\EditorMaterialWindow.xml" />
+    <Content Include="Data\UI\EditorParticleEffectWindow.xml" />
+    <Content Include="Data\UI\EditorPreferencesDialog.xml" />
+    <Content Include="Data\UI\EditorQuickMenu.xml" />
+    <Content Include="Data\UI\EditorResourceBrowser.xml" />
+    <Content Include="Data\UI\EditorResourceFilterWindow.xml" />
+    <Content Include="Data\UI\EditorSettingsDialog.xml" />
+    <Content Include="Data\UI\EditorSoundTypeWindow.xml" />
+    <Content Include="Data\UI\EditorSpawnWindow.xml" />
+    <Content Include="Data\UI\EditorViewport.xml" />
+    <Content Include="Data\UI\MessageBox.xml" />
+    <Content Include="Data\UI\OldStyle.xml" />
+    <Content Include="Data\UI\ScreenJoystick.xml" />
+    <Content Include="Data\UI\ScreenJoystickSettings.xml" />
+    <Content Include="Data\UI\ScreenJoystickSettings_NinjaSnowWar.xml" />
+    <Content Include="Data\UI\ScreenJoystickSettings_Samples.xml" />
+    <Content Include="Data\UI\ScreenJoystick_NinjaSnowWar.xml" />
+    <Content Include="Data\UI\ScreenJoystick_Samples.xml" />
+    <Content Include="Data\UI\UILoadExample.xml" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\..\packages\UrhoSharp.1.4.18\build\net45\UrhoSharp.targets" Condition="Exists('..\..\packages\UrhoSharp.1.4.18\build\net45\UrhoSharp.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
