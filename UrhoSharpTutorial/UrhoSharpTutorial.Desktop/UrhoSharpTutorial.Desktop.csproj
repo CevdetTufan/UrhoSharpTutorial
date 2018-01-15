@@ -180,7 +180,9 @@
     <Content Include="Data\Textures\T_ColorGrid.xml" />
     <Content Include="Data\Textures\UI.png" />
     <Content Include="Data\Textures\UI.xml" />
-    <Content Include="Data\Textures\UrhoDecal.dds" />
+    <Content Include="Data\Textures\UrhoDecal.dds">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Data\Textures\UrhoDecalAlpha.dds" />
     <Content Include="Data\Textures\UrhoIcon.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
