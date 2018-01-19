@@ -124,6 +124,9 @@ namespace UrhoSharpTutorial
             textHolder.AddChild(toolTipText);
             toolTipText.SetStyle("ToolTipText", null);
             toolTipText.Value = "Please drag me!";
+
+            draggableFish.SubscribeToDragBegin(HandleDragBegin);
+            draggableFish.SubscribeToDragMove(HandelDragMove);
         }
 
         private void HandleControlClicked(UIMouseClickEventArgs args)
@@ -140,6 +143,16 @@ namespace UrhoSharpTutorial
 
             // Update the Window's title text
             windowTitle.Value = $"Hello {name}!";
+        }
+
+        private void HandleDragBegin(DragBeginEventArgs args)
+        {
+            dragBeginPositon = new IntVector2(args.ElementX, args.ElementY);
+        }
+        private void HandelDragMove(DragMoveEventArgs args)
+        {
+            IntVector2 dragCurrentPossiton = new IntVector2(args.X, args.Y);
+            args.Element.Position = dragCurrentPossiton - dragBeginPositon;
         }
     }
 }

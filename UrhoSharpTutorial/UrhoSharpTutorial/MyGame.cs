@@ -20,6 +20,12 @@ namespace UrhoSharpTutorial
         Sprite logoSprite;
         UI ui;
 
+        static readonly Random random = new Random();
+        public static float NextRandom() => (float)random.NextDouble();
+        public static float NextRandom(float range) => (float)random.NextDouble() * range;
+        public static float NextRandom(float min, float max) => (float)((random.NextDouble() * (max - min)) + min);
+        public static int NextRandom(int min, int max) => random.Next(min, max);
+
         protected MonoDebugHud MonoDebugHud { get; set; }
 
         [Preserve]
@@ -55,6 +61,10 @@ namespace UrhoSharpTutorial
 
             // Subscribe to Esc key:
             Input.SubscribeToKeyDown(args => { if (args.Key == Key.Esc) Exit(); });
+        }
+        protected override void OnUpdate(float timeStep)
+        {
+            base.OnUpdate(timeStep);
         }
         void InitTouchInput()
         {
@@ -94,5 +104,7 @@ namespace UrhoSharpTutorial
             debugHud = Engine.CreateDebugHud();
             debugHud.DefaultStyle = xml;
         }
+
+
     }
 }
