@@ -6,7 +6,7 @@ namespace UrhoSharpTutorial.Desktop
     {
         static void Main(string[] args)
         {
-            new HelloGUI(new ApplicationOptions("Data")).Run();
+            new Sprites(new ApplicationOptions("Data")).Run();
         }
     }
 }
