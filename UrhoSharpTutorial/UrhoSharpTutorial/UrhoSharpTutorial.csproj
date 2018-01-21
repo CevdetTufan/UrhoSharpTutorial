@@ -37,6 +37,7 @@
     <Compile Include="01_HwlloWorld\HelloWorld.cs" />
     <Compile Include="02_HelloGUI\HelloGUI.cs" />
     <Compile Include="03_Sprites\Sprites.cs" />
+    <Compile Include="04_StaticScene\StaticScene.cs" />
     <Compile Include="MyGame.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -49,6 +49,74 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="Data\Models\Box.mdl" />
+    <None Include="Data\Models\Cone.mdl" />
+    <None Include="Data\Models\Cylinder.mdl" />
+    <None Include="Data\Models\Dome.mdl" />
+    <None Include="Data\Models\Editor\Axes.mdl" />
+    <None Include="Data\Models\Editor\ImagePlane.mdl" />
+    <None Include="Data\Models\Editor\RotateAxes.mdl" />
+    <None Include="Data\Models\Editor\ScaleAxes.mdl" />
+    <None Include="Data\Models\Enemy1.mdl" />
+    <None Include="Data\Models\HoverBike.mdl" />
+    <None Include="Data\Models\Jack.mdl" />
+    <None Include="Data\Models\Jack_Walk.ani" />
+    <None Include="Data\Models\Mushroom.mdl">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Data\Models\Mutant\Layer\Mutant_Block_LY.ani" />
+    <None Include="Data\Models\Mutant\Layer\Mutant_HitHead_LY.ani" />
+    <None Include="Data\Models\Mutant\Layer\Mutant_Throw_LY.ani" />
+    <None Include="Data\Models\Mutant\Layer\Mutant_Wave_LY.ani" />
+    <None Include="Data\Models\Mutant\Mutant.mdl" />
+    <None Include="Data\Models\Mutant\Mutant_Death.ani" />
+    <None Include="Data\Models\Mutant\Mutant_HipHop1.ani" />
+    <None Include="Data\Models\Mutant\Mutant_Idle0.ani" />
+    <None Include="Data\Models\Mutant\Mutant_Idle1.ani" />
+    <None Include="Data\Models\Mutant\Mutant_Jump.ani" />
+    <None Include="Data\Models\Mutant\Mutant_Jump1.ani" />
+    <None Include="Data\Models\Mutant\Mutant_JumpAttack.ani" />
+    <None Include="Data\Models\Mutant\Mutant_JumpStop.ani" />
+    <None Include="Data\Models\Mutant\Mutant_Kick.ani" />
+    <None Include="Data\Models\Mutant\Mutant_Punch.ani" />
+    <None Include="Data\Models\Mutant\Mutant_Run.ani" />
+    <None Include="Data\Models\Mutant\Mutant_Swipe.ani" />
+    <None Include="Data\Models\Mutant\Mutant_Walk.ani" />
+    <None Include="Data\Models\Mutant\RootMotion\Mutant_JumpAttack_RM.ani" />
+    <None Include="Data\Models\NinjaSnowWar\CloudPlane.mdl" />
+    <None Include="Data\Models\NinjaSnowWar\Level.mdl" />
+    <None Include="Data\Models\NinjaSnowWar\Ninja.mdl" />
+    <None Include="Data\Models\NinjaSnowWar\Ninja_Attack1.ani" />
+    <None Include="Data\Models\NinjaSnowWar\Ninja_Attack2.ani" />
+    <None Include="Data\Models\NinjaSnowWar\Ninja_Attack3.ani" />
+    <None Include="Data\Models\NinjaSnowWar\Ninja_Backflip.ani" />
+    <None Include="Data\Models\NinjaSnowWar\Ninja_Block.ani" />
+    <None Include="Data\Models\NinjaSnowWar\Ninja_Climb.ani" />
+    <None Include="Data\Models\NinjaSnowWar\Ninja_Crouch.ani" />
+    <None Include="Data\Models\NinjaSnowWar\Ninja_Death1.ani" />
+    <None Include="Data\Models\NinjaSnowWar\Ninja_Death2.ani" />
+    <None Include="Data\Models\NinjaSnowWar\Ninja_HighJump.ani" />
+    <None Include="Data\Models\NinjaSnowWar\Ninja_Idle1.ani" />
+    <None Include="Data\Models\NinjaSnowWar\Ninja_Idle2.ani" />
+    <None Include="Data\Models\NinjaSnowWar\Ninja_Idle3.ani" />
+    <None Include="Data\Models\NinjaSnowWar\Ninja_Jump.ani" />
+    <None Include="Data\Models\NinjaSnowWar\Ninja_JumpNoHeight.ani" />
+    <None Include="Data\Models\NinjaSnowWar\Ninja_Kick.ani" />
+    <None Include="Data\Models\NinjaSnowWar\Ninja_SideKick.ani" />
+    <None Include="Data\Models\NinjaSnowWar\Ninja_Spin.ani" />
+    <None Include="Data\Models\NinjaSnowWar\Ninja_Stealth.ani" />
+    <None Include="Data\Models\NinjaSnowWar\Ninja_Walk.ani" />
+    <None Include="Data\Models\NinjaSnowWar\Potion.mdl" />
+    <None Include="Data\Models\NinjaSnowWar\SnowBall.mdl" />
+    <None Include="Data\Models\NinjaSnowWar\SnowCrate.mdl" />
+    <None Include="Data\Models\Plane.mdl">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Data\Models\Player.mdl" />
+    <None Include="Data\Models\Pyramid.mdl" />
+    <None Include="Data\Models\Sphere.mdl" />
+    <None Include="Data\Models\TeaPot.mdl" />
+    <None Include="Data\Models\Torus.mdl" />
     <None Include="Data\Textures\UrhoIcon.icns" />
     <None Include="packages.config" />
   </ItemGroup>
@@ -58,6 +126,107 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Data\Materials\Editor\BlueUnlit.xml" />
+    <Content Include="Data\Materials\Editor\BrightBlueUnlit.xml" />
+    <Content Include="Data\Materials\Editor\BrightGreenUnlit.xml" />
+    <Content Include="Data\Materials\Editor\BrightRedUnlit.xml" />
+    <Content Include="Data\Materials\Editor\DebugIconCamera.xml" />
+    <Content Include="Data\Materials\Editor\DebugIconCollisionTrigger.xml" />
+    <Content Include="Data\Materials\Editor\DebugIconCustomGeometry.xml" />
+    <Content Include="Data\Materials\Editor\DebugIconLight.xml" />
+    <Content Include="Data\Materials\Editor\DebugIconParticleEmitter.xml" />
+    <Content Include="Data\Materials\Editor\DebugIconPointLight.xml" />
+    <Content Include="Data\Materials\Editor\DebugIconSoundListener.xml" />
+    <Content Include="Data\Materials\Editor\DebugIconSoundSource.xml" />
+    <Content Include="Data\Materials\Editor\DebugIconSplinePathPoint.xml" />
+    <Content Include="Data\Materials\Editor\DebugIconSpotLight.xml" />
+    <Content Include="Data\Materials\Editor\DebugIconZone.xml" />
+    <Content Include="Data\Materials\Editor\GreenUnlit.xml" />
+    <Content Include="Data\Materials\Editor\RedUnlit.xml" />
+    <Content Include="Data\Materials\Editor\TexturedUnlit.xml" />
+    <Content Include="Data\Materials\Enemy1.xml" />
+    <Content Include="Data\Materials\glass.xml" />
+    <Content Include="Data\Materials\Grass.xml" />
+    <Content Include="Data\Materials\Green.xml" />
+    <Content Include="Data\Materials\GreenTransparent.xml" />
+    <Content Include="Data\Materials\Jack.xml" />
+    <Content Include="Data\Materials\JackEnvMap.xml" />
+    <Content Include="Data\Materials\LitSmoke.xml" />
+    <Content Include="Data\Materials\LitSmokeSoft.xml" />
+    <Content Include="Data\Materials\Mushroom.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Materials\MushroomEnvMap.xml" />
+    <Content Include="Data\Materials\MushroomWind.xml" />
+    <Content Include="Data\Materials\MushroomWindUnlit.xml" />
+    <Content Include="Data\Materials\NinjaSnowWar\CloudPlane.xml" />
+    <Content Include="Data\Materials\NinjaSnowWar\Ninja.xml" />
+    <Content Include="Data\Materials\NinjaSnowWar\Potion.xml" />
+    <Content Include="Data\Materials\NinjaSnowWar\Snow.xml" />
+    <Content Include="Data\Materials\NinjaSnowWar\SnowCrate.xml" />
+    <Content Include="Data\Materials\Particle.xml" />
+    <Content Include="Data\Materials\PBR\Check.xml" />
+    <Content Include="Data\Materials\PBR\ColorGrid.xml" />
+    <Content Include="Data\Materials\PBR\Concrete.xml" />
+    <Content Include="Data\Materials\PBR\DiamonPlate.xml" />
+    <Content Include="Data\Materials\PBR\Dynamic.xml" />
+    <Content Include="Data\Materials\PBR\EmissivePannel.xml" />
+    <Content Include="Data\Materials\PBR\HighRoughMetallic0.xml" />
+    <Content Include="Data\Materials\PBR\HighRoughMetallic10.xml" />
+    <Content Include="Data\Materials\PBR\HighRoughMetallic3.xml" />
+    <Content Include="Data\Materials\PBR\HighRoughMetallic5.xml" />
+    <Content Include="Data\Materials\PBR\HighRoughMetallic7.xml" />
+    <Content Include="Data\Materials\PBR\HoverBikeGlass.xml" />
+    <Content Include="Data\Materials\PBR\HoverBikeHull.xml" />
+    <Content Include="Data\Materials\PBR\Lead.xml" />
+    <Content Include="Data\Materials\PBR\Leather.xml" />
+    <Content Include="Data\Materials\PBR\Metallic0.xml" />
+    <Content Include="Data\Materials\PBR\Metallic10.xml" />
+    <Content Include="Data\Materials\PBR\Metallic3.xml" />
+    <Content Include="Data\Materials\PBR\Metallic5.xml" />
+    <Content Include="Data\Materials\PBR\Metallic7.xml" />
+    <Content Include="Data\Materials\PBR\Metallic9.xml" />
+    <Content Include="Data\Materials\PBR\MetallicRough0.xml" />
+    <Content Include="Data\Materials\PBR\MetallicRough10.xml" />
+    <Content Include="Data\Materials\PBR\MetallicRough3.xml" />
+    <Content Include="Data\Materials\PBR\MetallicRough5.xml" />
+    <Content Include="Data\Materials\PBR\MetallicRough7.xml" />
+    <Content Include="Data\Materials\PBR\Mud.xml" />
+    <Content Include="Data\Materials\PBR\Roughness0.xml" />
+    <Content Include="Data\Materials\PBR\Roughness10.xml" />
+    <Content Include="Data\Materials\PBR\Roughness3.xml" />
+    <Content Include="Data\Materials\PBR\Roughness5.xml" />
+    <Content Include="Data\Materials\PBR\Roughness7.xml" />
+    <Content Include="Data\Materials\PBR\Sand.xml" />
+    <Content Include="Data\Materials\PBR\Tile.xml" />
+    <Content Include="Data\Materials\plane.xml" />
+    <Content Include="Data\Materials\Player.xml" />
+    <Content Include="Data\Materials\RibbonTrail.xml" />
+    <Content Include="Data\Materials\Skybox.xml" />
+    <Content Include="Data\Materials\Skybox2.xml" />
+    <Content Include="Data\Materials\SlashTrail.xml" />
+    <Content Include="Data\Materials\Smoke.xml" />
+    <Content Include="Data\Materials\SmokeSoft.xml" />
+    <Content Include="Data\Materials\Stone.xml" />
+    <Content Include="Data\Materials\StoneEnvMap.xml" />
+    <Content Include="Data\Materials\StoneEnvMapSmall.xml" />
+    <Content Include="Data\Materials\StoneSmall.xml" />
+    <Content Include="Data\Materials\StoneTiled.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Materials\StoneTiledH.xml" />
+    <Content Include="Data\Materials\Terrain.xml" />
+    <Content Include="Data\Materials\UrhoDecal.xml" />
+    <Content Include="Data\Materials\UrhoDecalAlpha.xml" />
+    <Content Include="Data\Materials\UrhoDecalAlphaMaskTwoSided.xml" />
+    <Content Include="Data\Materials\VColUnlit.xml" />
+    <Content Include="Data\Materials\Water.xml" />
+    <Content Include="Data\Models\Mutant\License.txt" />
+    <Content Include="Data\Models\Mutant\Materials\mutant_M.xml" />
+    <Content Include="Data\Models\Mutant\Textures\Mutant_diffuse.jpg" />
+    <Content Include="Data\Models\Mutant\Textures\Mutant_normal.jpg" />
+    <Content Include="Data\Models\NinjaSnowWar\Ninja_Stealth.xml" />
+    <Content Include="Data\Models\NinjaSnowWar\Ninja_Walk.xml" />
     <Content Include="Data\Textures\BrightDay1_NegX.dds" />
     <Content Include="Data\Textures\BrightDay1_NegY.dds" />
     <Content Include="Data\Textures\BrightDay1_NegZ.dds" />
@@ -94,7 +263,9 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Data\Textures\LogoLarge.xml" />
-    <Content Include="Data\Textures\Mushroom.dds" />
+    <Content Include="Data\Textures\Mushroom.dds">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Data\Textures\NinjaSnowWar\CloudPlane.dds" />
     <Content Include="Data\Textures\NinjaSnowWar\HealthBarBorder.png" />
     <Content Include="Data\Textures\NinjaSnowWar\HealthBarInside.png" />
@@ -169,8 +340,12 @@
     <Content Include="Data\Textures\Skybox2.xml" />
     <Content Include="Data\Textures\SlashTrail.png" />
     <Content Include="Data\Textures\Smoke.dds" />
-    <Content Include="Data\Textures\StoneDiffuse.dds" />
-    <Content Include="Data\Textures\StoneNormal.dds" />
+    <Content Include="Data\Textures\StoneDiffuse.dds">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Textures\StoneNormal.dds">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Data\Textures\TerrainDetail1.dds" />
     <Content Include="Data\Textures\TerrainDetail2.dds" />
     <Content Include="Data\Textures\TerrainDetail3.dds" />

@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 using Urho;
 using Urho.Gui;
 using Urho.Urho2D;
@@ -29,7 +25,6 @@ namespace UrhoSharpTutorial
             MoveSprites(timeStep);
             base.OnUpdate(timeStep);
         }
-
         private void CreateSprites()
         {
             var cache = ResourceCache;
@@ -48,7 +43,7 @@ namespace UrhoSharpTutorial
                 sprite.HotSpot = new IntVector2(64, 64);
 
                 sprite.Rotation = NextRandom() * 360.0f;
-                sprite.SetScale(NextRandom(1, 0f) + 0.5f);
+                sprite.SetScale(NextRandom(1.0f) + 0.5f);
 
                 sprite.SetColor(new Color(NextRandom(0.5f) + 0.5f, NextRandom(0.5f) + 0.5f, NextRandom(0.5f) + 0.5f));
                 sprite.BlendMode = BlendMode.Add;
