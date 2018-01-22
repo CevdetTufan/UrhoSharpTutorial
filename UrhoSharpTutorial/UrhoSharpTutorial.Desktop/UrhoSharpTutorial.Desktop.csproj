@@ -61,8 +61,12 @@
     <None Include="Data\Models\Editor\ScaleAxes.mdl" />
     <None Include="Data\Models\Enemy1.mdl" />
     <None Include="Data\Models\HoverBike.mdl" />
-    <None Include="Data\Models\Jack.mdl" />
-    <None Include="Data\Models\Jack_Walk.ani" />
+    <None Include="Data\Models\Jack.mdl">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Data\Models\Jack_Walk.ani">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="Data\Models\Mushroom.mdl">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
