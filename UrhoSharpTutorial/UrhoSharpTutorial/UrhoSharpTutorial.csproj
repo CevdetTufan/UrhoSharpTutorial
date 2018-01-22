@@ -38,6 +38,8 @@
     <Compile Include="02_HelloGUI\HelloGUI.cs" />
     <Compile Include="03_Sprites\Sprites.cs" />
     <Compile Include="04_StaticScene\StaticScene.cs" />
+    <Compile Include="05_AnimatingScene\AnimatingScene.cs" />
+    <Compile Include="06_SkeletalAnimation\SkeletalAnimation.cs" />
     <Compile Include="MyGame.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

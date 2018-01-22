@@ -49,7 +49,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="Data\Models\Box.mdl" />
+    <None Include="Data\Models\Box.mdl">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="Data\Models\Cone.mdl" />
     <None Include="Data\Models\Cylinder.mdl" />
     <None Include="Data\Models\Dome.mdl" />
@@ -207,7 +209,9 @@
     <Content Include="Data\Materials\SlashTrail.xml" />
     <Content Include="Data\Materials\Smoke.xml" />
     <Content Include="Data\Materials\SmokeSoft.xml" />
-    <Content Include="Data\Materials\Stone.xml" />
+    <Content Include="Data\Materials\Stone.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Data\Materials\StoneEnvMap.xml" />
     <Content Include="Data\Materials\StoneEnvMapSmall.xml" />
     <Content Include="Data\Materials\StoneSmall.xml" />

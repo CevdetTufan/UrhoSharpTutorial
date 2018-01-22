@@ -6,7 +6,7 @@ namespace UrhoSharpTutorial.Desktop
     {
         static void Main(string[] args)
         {
-            new StaticScene(new ApplicationOptions("Data")).Run();
+            new AnimatingScene(new ApplicationOptions("Data")).Run();
         }
     }
 }
