@@ -157,7 +157,9 @@
     <Content Include="Data\Materials\GreenTransparent.xml" />
     <Content Include="Data\Materials\Jack.xml" />
     <Content Include="Data\Materials\JackEnvMap.xml" />
-    <Content Include="Data\Materials\LitSmoke.xml" />
+    <Content Include="Data\Materials\LitSmoke.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Data\Materials\LitSmokeSoft.xml" />
     <Content Include="Data\Materials\Mushroom.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
@@ -208,7 +210,9 @@
     <Content Include="Data\Materials\plane.xml" />
     <Content Include="Data\Materials\Player.xml" />
     <Content Include="Data\Materials\RibbonTrail.xml" />
-    <Content Include="Data\Materials\Skybox.xml" />
+    <Content Include="Data\Materials\Skybox.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Data\Materials\Skybox2.xml" />
     <Content Include="Data\Materials\SlashTrail.xml" />
     <Content Include="Data\Materials\Smoke.xml" />
@@ -235,12 +239,24 @@
     <Content Include="Data\Models\Mutant\Textures\Mutant_normal.jpg" />
     <Content Include="Data\Models\NinjaSnowWar\Ninja_Stealth.xml" />
     <Content Include="Data\Models\NinjaSnowWar\Ninja_Walk.xml" />
-    <Content Include="Data\Textures\BrightDay1_NegX.dds" />
-    <Content Include="Data\Textures\BrightDay1_NegY.dds" />
-    <Content Include="Data\Textures\BrightDay1_NegZ.dds" />
-    <Content Include="Data\Textures\BrightDay1_PosX.dds" />
-    <Content Include="Data\Textures\BrightDay1_PosY.dds" />
-    <Content Include="Data\Textures\BrightDay1_PosZ.dds" />
+    <Content Include="Data\Textures\BrightDay1_NegX.dds">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Textures\BrightDay1_NegY.dds">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Textures\BrightDay1_NegZ.dds">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Textures\BrightDay1_PosX.dds">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Textures\BrightDay1_PosY.dds">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Textures\BrightDay1_PosZ.dds">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Data\Textures\Editor\BW.png" />
     <Content Include="Data\Textures\Editor\EditorIcons.png" />
     <Content Include="Data\Textures\Editor\EditorIcons.xml" />
@@ -344,10 +360,14 @@
     <Content Include="Data\Textures\PBR\Sand\Properties.jpg" />
     <Content Include="Data\Textures\Player1.png" />
     <Content Include="Data\Textures\RibbonTrail.png" />
-    <Content Include="Data\Textures\Skybox.xml" />
+    <Content Include="Data\Textures\Skybox.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Data\Textures\Skybox2.xml" />
     <Content Include="Data\Textures\SlashTrail.png" />
-    <Content Include="Data\Textures\Smoke.dds" />
+    <Content Include="Data\Textures\Smoke.dds">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Data\Textures\StoneDiffuse.dds">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

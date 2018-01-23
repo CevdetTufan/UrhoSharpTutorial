@@ -40,6 +40,8 @@
     <Compile Include="04_StaticScene\StaticScene.cs" />
     <Compile Include="05_AnimatingScene\AnimatingScene.cs" />
     <Compile Include="06_SkeletalAnimation\SkeletalAnimation.cs" />
+    <Compile Include="07_Billboards\Billboards.cs" />
+    <Compile Include="11_Physics\Physics.cs" />
     <Compile Include="MyGame.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
